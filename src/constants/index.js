@@ -3,27 +3,27 @@ import {
     backend,
     creator,
     web,
+
     javascript,
-    typescript,
     html,
     css,
     reactjs,
-    redux,
-    tailwind,
-    nodejs,
     mongodb,
     git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    python,
+    threejs,
+    sql,
+    java,
+    cpp,
+    flask,
+
+    locavor,
     instalily,
+    nyu,
+
     carrent,
     jobit,
     tripguide,
-    threejs,
   } from "../assets";
   
   export const navLinks = [
@@ -34,6 +34,10 @@ import {
     {
       id: "work",
       title: "Work",
+    },
+    {
+      id: "skills",
+      title: "Skills",
     },
     {
       id: "contact",
@@ -62,36 +66,32 @@ import {
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
+      name: "Python",
+      icon: python,
     },
     {
-      name: "CSS 3",
-      icon: css,
+      name: "C++",
+      icon: cpp,
+    },
+    {
+      name: "Java",
+      icon: java,
     },
     {
       name: "JavaScript",
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "SQL",
+      icon: sql,
     },
     {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
+      name: "Flask",
+      icon: flask,
     },
     {
       name: "MongoDB",
@@ -102,81 +102,52 @@ import {
       icon: threejs,
     },
     {
+      name: "CSS",
+      icon: css,
+    },
+    {
+      name: "HTML 5",
+      icon: html,
+    },
+    {
       name: "git",
       icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    }
   ];
   
   const experiences = [
     {
-      title: "Full Stack Intern",
+      title: "AI Engineering Intern",
       company_name: "Instalily",
       icon: instalily,
       iconBg: "#181818",
       date: "August 2024 - September 2024",
       points: [
-        "Developed an LLM-based agentic system for database manipulation through SQL, and deployed and managed language model driven systems in a client environment using real-world data",
-        "Implemented updates for iterative rollouts on a sales personnel assistant platform designed to boost sales and enhance customer engagement using Javascript",
+        "Developed an LLM-based agentic system for database manipulation through SQL, and deployed and managed language model driven systems in a client environment using real-world data.",
+        "Implemented updates for iterative rollouts on a sales personnel assistant platform designed to boost sales and enhance customer engagement using Javascript.",
       ],
     },
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "Full Stack Intern",
+      company_name: "Locavor",
+      icon: locavor,
+      iconBg: "#000000",
+      date: "June 2023 - September 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Implemented responsive mobile app features using React and Javascript that aided customer transactions, improved site navigability, and enhanced user experience.",
+        "Performed rigorous testing during app development to identify and report software defects.",
+        "Participated in code reviews and provided constructive feedback to other developers.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      title: "Machine Learning Subteam Member",
+      company_name: "NYU Concrete Canoe",
+      icon: nyu,
+      iconBg: "#FFFFFF",
+      date: "June 2023 - September 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed a machine learning model that optimized an ultra-low carbon concrete mixture composed of less than 2% portland cement, drastically reducing its carbon footprint.",
+        "Placed 1st at nationals of the 2022 ASCE Concrete Canoe Competition in the category of final product, and placed 5th overall.",
       ],
     },
   ];
