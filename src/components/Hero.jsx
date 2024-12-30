@@ -17,7 +17,7 @@ const Hero = () => {
               <span className='text-[#915eff]'>Gavin</span>
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-              I am a senior at NYU pursuing a Bachelor's in Computer Science, with a minor in Math and Cybersecurity.
+              I am a senior at NYU pursuing a Bachelor's in Computer Science with a minor in Math and Cybersecurity.
               I have experience with full-stack development.
               <br className='sm:block hidden' />
             </p>

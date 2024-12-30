@@ -19,6 +19,7 @@ import {
     starbucks,
     tesla,
     shopify,
+    instalily,
     carrent,
     jobit,
     tripguide,
@@ -115,6 +116,17 @@ import {
   ];
   
   const experiences = [
+    {
+      title: "Full Stack Intern",
+      company_name: "Instalily",
+      icon: instalily,
+      iconBg: "#181818",
+      date: "August 2024 - September 2024",
+      points: [
+        "Developed an LLM-based agentic system for database manipulation through SQL, and deployed and managed language model driven systems in a client environment using real-world data",
+        "Implemented updates for iterative rollouts on a sales personnel assistant platform designed to boost sales and enhance customer engagement using Javascript",
+      ],
+    },
     {
       title: "React.js Developer",
       company_name: "Starbucks",
