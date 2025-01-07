@@ -21,11 +21,11 @@ const Navbar = () => {
         >
           <img src={logo} alt='logo' className='w-12 h-9 object-contain' />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">Gavin Zhao&nbsp;
-            <span className="sm:block hidden">| Developer Portfolio</span>
+            <span className="lg:block hidden">| Developer Portfolio</span>
           </p>
         </Link>
 
-        <ul className="list-none hidden sm:flex flex-row gap-10">
+        <ul className="list-none hidden md:flex flex-row gap-10">
           {navLinks.map((link) => (
             <li
               key={link.id}
@@ -47,7 +47,7 @@ const Navbar = () => {
             <ul className="list-none flex justify-end items-start flex-col gap-4">
             {navLinks.map((link) => (
               <li
-                key={Link.id}
+                key={link.id}
                 className={`${active === link.title ? 'text-white' : 'text-secondary'}
                 font-poppins font-medium cursor-pointer text-[16px]`}
                 onClick={() => {

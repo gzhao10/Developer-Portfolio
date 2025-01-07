@@ -1,19 +1,21 @@
-import logo from "./logo.svg";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
-import github from "./github.png";
-import menu from "./menu.svg";
-import close from "./close.svg";
+import logo from "./logo.svg"
+import github from "./github.png"
+import menu from "./menu.svg"
+import close from "./close.svg"
+import computer from "./computer.png"
 
-import css from "./tech/css.png";
-import git from "./tech/git.png";
-import html from "./tech/html.png";
-import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
-import reactjs from "./tech/reactjs.png";
-import threejs from "./tech/threejs.svg";
+import frontend from "./services/frontend.png"
+import backend from "./services/backend.png"
+import ai from "./services/ai.png"
+import data from "./services/data.png"
+
+import css from "./tech/css.png"
+import git from "./tech/git.png"
+import html from "./tech/html.png"
+import javascript from "./tech/javascript.png"
+import mongodb from "./tech/mongodb.png"
+import reactjs from "./tech/reactjs.png"
+import threejs from "./tech/threejs.svg"
 import python from "./tech/python.png"
 import sql from "./tech/sql.svg"
 import java from "./tech/java.png"
@@ -24,19 +26,23 @@ import locavor from './company/locavor.png'
 import instalily from './company/instalily.png'
 import nyu from './company/nyu.png'
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import api from "./projects/api.png"
+import crane from "./projects/crane.png"
+import jail from "./projects/jail.png"
+import nba from "./projects/nba.png"
+import wildwood from "./projects/wildwood.png"
 
 export {
   logo,
-  backend,
-  creator,
-  mobile,
-  web,
   github,
   menu,
   close,
+  computer,
+
+  frontend,
+  backend,
+  ai,
+  data,
 
   css,
   cpp,
@@ -55,7 +61,9 @@ export {
   instalily,
   nyu,
 
-  carrent,
-  jobit,
-  tripguide,
+  api,
+  crane,
+  jail,
+  nba,
+  wildwood,
 };

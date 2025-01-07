@@ -1,8 +1,8 @@
 import {
-    mobile,
+    frontend,
     backend,
-    creator,
-    web,
+    ai,
+    data,
 
     javascript,
     html,
@@ -21,9 +21,11 @@ import {
     instalily,
     nyu,
 
-    carrent,
-    jobit,
-    tripguide,
+    api,
+    crane,
+    jail,
+    nba,
+    wildwood,
   } from "../assets";
   
   export const navLinks = [
@@ -32,12 +34,16 @@ import {
       title: "About",
     },
     {
-      id: "work",
-      title: "Work",
+      id: "experience",
+      title: "Experience",
     },
     {
       id: "skills",
       title: "Skills",
+    },
+    {
+      id: "projects",
+      title: "Projects",
     },
     {
       id: "contact",
@@ -47,20 +53,20 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
-      icon: web,
-    },
-    {
-      title: "React Native Developer",
-      icon: mobile,
+      title: "Frontend Developer",
+      icon: frontend,
     },
     {
       title: "Backend Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
-      icon: creator,
+      title: "AI Engineer",
+      icon: ai,
+    },
+    {
+      title: "Data Engineer",
+      icon: data,
     },
   ];
   
@@ -144,70 +150,49 @@ import {
       company_name: "NYU Concrete Canoe",
       icon: nyu,
       iconBg: "#FFFFFF",
-      date: "June 2023 - September 2023",
+      date: "January 2022 - May 2022",
       points: [
         "Developed a machine learning model that optimized an ultra-low carbon concrete mixture composed of less than 2% portland cement, drastically reducing its carbon footprint.",
         "Placed 1st at nationals of the 2022 ASCE Concrete Canoe Competition in the category of final product, and placed 5th overall.",
       ],
     },
   ];
-  
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
-  
+
   const projects = [
     {
-      name: "Car Rent",
+      name: "NBA AI Chatbot",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "An AI-driven chatbot that that interprets a user prompt written in natural language and converts it to a SQL query that interacts with an NBA dataset to provide insights and visualizations.",
       tags: [
         {
-          name: "react",
+          name: "python",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "javascript",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "react",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "flask",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: nba,
+      source_code_link: "https://github.com/gzhao10/NBA-AI-Chatbot",
+      is_live: false,
+      live_link: '',
     },
     {
-      name: "Job IT",
+      name: "Journal API Server",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A RESTful API server for a journal using Flask that integrated 20+ endpoints allowing for CRUD operations on people, manuscript, and text data collections hosted on MongoDB.",
       tags: [
         {
-          name: "react",
+          name: "python",
           color: "blue-text-gradient",
         },
         {
@@ -215,34 +200,49 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "mongodb",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "flask",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: api,
+      source_code_link: "https://github.com/dooont/mmankwgzrz/",
+      is_live: true,
+      live_link: 'https://gzhao10.pythonanywhere.com/',
     },
     {
-      name: "Trip Guide",
+      name: "Wildwood Adventure",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A scrolling 2D action game with two interactive levels, featuring a health system, combat, and attack/death animations.\n\nUse the LEFT, RIGHT, UP, and DOWN keys to complete various game objectives. Find a weapon and save the world from monsters!",
       tags: [
         {
-          name: "nextjs",
+          name: "c++",
           color: "blue-text-gradient",
         },
+      ],
+      image: wildwood,
+      source_code_link: "https://github.com/gzhao10/WildwoodAdventure/",
+      is_live: false,
+      live_link: '',
+    },
+    {
+      name: "Crane Chaos",
+      description:
+        "A scrolling 2D platformer with three interactive levels that incorporates various AI enemies with different attack patterns.\n\n Use the LEFT, RIGHT, and SPACE keys to avoid enemies and pitfalls.",
+      tags: [
         {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
+          name: "c++",
+          color: "blue-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: crane,
+      source_code_link: "https://github.com/gzhao10/Crane-Chaos",
+      is_live: false,
+      live_link: '',
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, projects };
