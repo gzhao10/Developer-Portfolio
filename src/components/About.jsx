@@ -39,11 +39,12 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-5xl leading-[30px]'
       >
-        I have experience working with Python, SQL, Java, Javascript, C++, and C. 
-        and am familiar with frameworks such as React, Flask, Pandas, Three.js, and Swagger. 
+        I have experience working with Python, SQL, Java, Javascript, C++, and C,
+        and I am familiar with frameworks such as React, Flask, Pandas, Three.js, and Swagger. 
         I would love to continue exploring the realm of cybersecurity, AI solutions, and data engineering,
         and I am always looking for opportunities to learn new things.
-        <br></br>
+        <br/>
+        <br/>
         Fun fact: I am the president of NYU's Ultimate Frisbee team!
       </motion.p>
 

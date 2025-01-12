@@ -126,6 +126,17 @@
   transform: translateZ(0);
 }
 
+
+.container {
+}
+
+.image {
+}
+
+.container:hover .image {
+  opacity: 0.5;
+}
+
 @keyframes mulShdSpin {
   0%,
   100% {

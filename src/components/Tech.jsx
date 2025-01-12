@@ -19,7 +19,11 @@ const Tech = () => {
       >
         COURSEWORK:
         <br/>
-        Software Engineering | Data Structures & Algorithms | Object Oriented Programming | Computer Security | Computer Networking | Artificial Intelligence | Databases | Operating Systems | Java & Web Design | Computer Architecture | Game Programming
+        Software Engineering | Data Structures & Algorithms | Object Oriented Programming | Computer Security | 
+        <br/>
+        Computer Networking | Artificial Intelligence | Databases | Operating Systems | Java & Web Design | 
+        <br/>
+        Computer Architecture | Game Programming
 
       </motion.p>
 

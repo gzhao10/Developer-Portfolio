@@ -25,7 +25,13 @@ import {
     crane,
     jail,
     nba,
+    scribble,
     wildwood,
+
+    email,
+    github,
+    linkedin,
+    resume,
   } from "../assets";
   
   export const navLinks = [
@@ -243,6 +249,79 @@ import {
       is_live: false,
       live_link: '',
     },
+    {
+      name: "ScribbleGuesser",
+      description:
+       "A multiplayer game where players take turns drawing, and the other players in the server must guess the drawing for points. Only one Scribbler can draw at a time, who is unable to type in chat during this period. If all players guess correctly, or the timer runs out, the round ends.",
+      tags: [
+        {
+          name: "java",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "sql",
+          color: "green-text-gradient"
+        }
+      ],
+      image: scribble,
+      source_code_link: "https://github.com/gzhao10/ScribbleGuesser/",
+      is_live: false,
+      live_link: '',
+    },
+    {
+      name: "City Jail App",
+      description:
+       "A web application that allows users to access a MYSQL database. This app features a public view that allows users to search criminal and crime related data. There is also an admin view, accessed through the login, that allows for more detailed searches, inserting new data entries, updating existing entries, and deleting existing entries.",
+      tags: [
+        {
+          name: "php",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "sql",
+          color: "green-text-gradient"
+        },
+        {
+          name: "html",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: jail,
+      source_code_link: "https://github.com/abeeds/City-Jail-App",
+      is_live: false,
+      live_link: '',
+    },
   ];
+
+  const contacts = [
+    {
+      id: 'Email',
+      link: 'mailto:zgavin73@gmail.com',
+      image: email,
+      dimensions: 'w-4 h-5 ml-3 mt-1',
+    },
+    {
+      id: 'LinkedIn',
+      link: 'https://www.linkedin.com/in/gavin-zhao-837398236/',
+      image: linkedin,
+      dimensions: 'w-3.5 h-3.5 ml-3 mt-1.5'
+    },
+    {
+      id: 'GitHub',
+      link: 'https://github.com/gzhao10',
+      image: github,
+      dimensions: 'w-5 h-5 ml-3 mt-0.5'
+    },
+    {
+      id: 'Resume',
+      link: 'https://docs.google.com/document/d/1k7KarIsdTnWbfDGIdBNkuOFw_MtzHVlmwRNqLg2nZYQ/edit?usp=sharing',
+      image: resume,
+      dimensions: 'w-4 h-4 ml-3 mt-1'
+    }
+  ]
   
-  export { services, technologies, experiences, projects };
+  export { services, technologies, experiences, projects, contacts };

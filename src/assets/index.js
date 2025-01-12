@@ -1,5 +1,8 @@
 import logo from "./logo.svg"
+import email from "./email.png"
 import github from "./github.png"
+import linkedin from "./linkedin.png"
+import resume from "./resume.png"
 import menu from "./menu.svg"
 import close from "./close.svg"
 import computer from "./computer.png"
@@ -30,11 +33,16 @@ import api from "./projects/api.png"
 import crane from "./projects/crane.png"
 import jail from "./projects/jail.png"
 import nba from "./projects/nba.png"
+import scribble from "./projects/scribble.png"
 import wildwood from "./projects/wildwood.png"
+
 
 export {
   logo,
+  email,
   github,
+  linkedin,
+  resume,
   menu,
   close,
   computer,
@@ -65,5 +73,6 @@ export {
   crane,
   jail,
   nba,
+  scribble,
   wildwood,
 };
